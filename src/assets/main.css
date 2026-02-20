@@ -1,0 +1,62 @@
+:root {
+  /* design.png: clean white/light grey, blue accents */
+  --sidebar-bg: #ffffff;
+  --sidebar-border: #e9ecef;
+  --sidebar-text: #6c757d;
+  --sidebar-text-dark: #2c3e50;
+  --sidebar-active-bg: #e7f1ff;
+  --sidebar-active-text: #1e3a5f;
+  --body-bg: #f1f3f5;
+  --header-bg: #ffffff;
+  --header-border: #e9ecef;
+  --card-bg: #ffffff;
+  --card-border: #e9ecef;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --text-primary: #2c3e50;
+  --text-muted: #6c757d;
+  --table-header: #f8f9fa;
+  --table-border: #dee2e6;
+  --table-hover: #f1f3f5;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --link-blue: #2563eb;
+  --btn-pink: #e91e63;
+  --btn-pink-hover: #c2185b;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  background: var(--body-bg);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select {
+  font-family: inherit;
+}
